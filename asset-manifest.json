@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sahara-comforts/static/css/main.c21e0e1e.css",
+    "main.css": "/sahara-comforts/static/css/main.2045c21f.css",
     "main.js": "/sahara-comforts/static/js/main.0c74abcd.js",
     "static/media/plain1.jpg": "/sahara-comforts/static/media/plain1.93a21686e3e58237ae86.jpg",
     "static/media/blank1.jpg": "/sahara-comforts/static/media/blank1.04da0f6fadb970c76ad3.jpg",
@@ -18,11 +18,11 @@
     "static/media/slick.ttf": "/sahara-comforts/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/sahara-comforts/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sahara-comforts/index.html",
-    "main.c21e0e1e.css.map": "/sahara-comforts/static/css/main.c21e0e1e.css.map",
+    "main.2045c21f.css.map": "/sahara-comforts/static/css/main.2045c21f.css.map",
     "main.0c74abcd.js.map": "/sahara-comforts/static/js/main.0c74abcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c21e0e1e.css",
+    "static/css/main.2045c21f.css",
     "static/js/main.0c74abcd.js"
   ]
 }
