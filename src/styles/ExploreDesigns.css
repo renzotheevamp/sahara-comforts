@@ -1,3 +1,4 @@
+/* ===== Global Styles ===== */
 body,
 html {
   overflow-x: hidden;
@@ -11,36 +12,46 @@ html {
   background-size: cover;
 }
 
+/* ===== Text & General Styling ===== */
 .first-paragraph {
-  padding: 10px 20px;
+  padding: 8px 16px;
   border-radius: 10px;
   display: inline-block;
   background: rgba(0, 0, 0, 0.3);
   color: white;
+  font-size: 14px;
+  text-align: center;
+  max-width: 90%;
 }
 
 .explore-designs {
-  padding-top: 70px;
+  padding-top: 50px;
   max-width: 100vw;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .explore-container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 100%;
+  padding: 0 10px;
 }
 
+/* ===== Design Section ===== */
 .design-container {
   display: flex;
+  flex-wrap: wrap; /* Prevents elements from overflowing */
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   margin-top: 20px;
 }
 
 .design-item {
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 90%;
+  max-width: 300px;
+  height: 350px;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -54,24 +65,26 @@ html {
 
 .design-text {
   position: absolute;
-  bottom: 10%;
+  bottom: 8%;
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   background: rgba(0, 0, 0, 0.5);
-  padding: 12px 20px;
+  padding: 8px 12px;
   border-radius: 8px;
   text-align: center;
-  width: 50%;
+  width: 80%;
 }
 
+/* ===== Design Options Section ===== */
 .design-options {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   margin-top: 20px;
 }
 
@@ -81,12 +94,55 @@ html {
   align-items: center;
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .design-card img {
-  width: 300px;
+  width: 90%;
+  max-width: 280px;
   height: auto;
   border-radius: 10px;
+}
+
+@media (max-width: 425px) {
+  .explore-designs {
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .design-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .design-item {
+    width: 100%;
+    max-width: 280px;
+    height: 320px;
+  }
+
+  .design-text {
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 70%;
+  }
+
+  .design-options {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .design-card img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .first-paragraph {
+    font-size: 12px;
+    max-width: 95%;
+  }
 }
