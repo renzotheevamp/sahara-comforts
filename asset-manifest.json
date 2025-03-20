@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/sahara-comforts/static/css/main.c21e0e1e.css",
+    "main.js": "/sahara-comforts/static/js/main.d1ded43a.js",
+    "static/media/plain1.jpg": "/sahara-comforts/static/media/plain1.93a21686e3e58237ae86.jpg",
+    "static/media/blank1.jpg": "/sahara-comforts/static/media/blank1.04da0f6fadb970c76ad3.jpg",
+    "static/media/backgroundp.jpg": "/sahara-comforts/static/media/backgroundp.83a044131737b646cd6c.jpg",
+    "static/media/sunsetbackground.webp": "/sahara-comforts/static/media/sunsetbackground.ef423bbd4053d844774c.webp",
+    "static/media/picnic.jpg": "/sahara-comforts/static/media/picnic.8fa72e2419c02b94eb50.jpg",
+    "static/media/image.png": "/sahara-comforts/static/media/image.4aaeaa4005ecda680a96.png",
+    "static/media/shuka on seat (3).jpg": "/sahara-comforts/static/media/shuka on seat (3).3f65d42fa25b4215ac8e.jpg",
+    "static/media/picnic2.jpg": "/sahara-comforts/static/media/picnic2.9f7259ddf6f58b8e198a.jpg",
+    "static/media/shuka on seat (1).jpg": "/sahara-comforts/static/media/shuka on seat (1).60799864597a3b7f2d8b.jpg",
+    "static/media/NkoroiCrafts - Etsy.jpg": "/sahara-comforts/static/media/NkoroiCrafts - Etsy.ac9b830c2f40e2527ba3.jpg",
+    "static/media/GUEST_66b586c5-0f26-4b3f-98c2-2842165807b3.avif": "/sahara-comforts/static/media/GUEST_66b586c5-0f26-4b3f-98c2-2842165807b3.088399895619a6247f8b.avif",
+    "static/media/slick.svg": "/sahara-comforts/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sahara-comforts/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sahara-comforts/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sahara-comforts/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/sahara-comforts/index.html",
+    "main.c21e0e1e.css.map": "/sahara-comforts/static/css/main.c21e0e1e.css.map",
+    "main.d1ded43a.js.map": "/sahara-comforts/static/js/main.d1ded43a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c21e0e1e.css",
+    "static/js/main.d1ded43a.js"
+  ]
+}
